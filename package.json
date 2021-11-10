@@ -1,7 +1,7 @@
 {
   "name": "@poc-mf-react/header",
   "scripts": {
-    "start": "webpack serve --port 8500",
+    "start": "webpack serve --port 8001",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
