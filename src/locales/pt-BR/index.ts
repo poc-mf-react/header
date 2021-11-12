@@ -1,4 +1,4 @@
-import header from "./header.json";
+import header from './header.json';
 
 export default {
   header,

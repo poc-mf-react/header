@@ -1,4 +1,4 @@
-import { MenuBackground, Nav } from "./Menu.style";
+import { MenuBackground, Nav } from './Menu.style';
 
 interface MenuBaseProps {
   children?: React.ReactNode;

@@ -1,5 +1,5 @@
-import React from "react";
-import { LinkText, LinkBox } from "./MenuItem.style";
+import React from 'react';
+import { LinkText, LinkBox } from './MenuItem.style';
 
 type MenuItemProps = {
   children: React.ReactNode;

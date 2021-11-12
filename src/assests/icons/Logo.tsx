@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 const Logo = (props: React.SVGProps<SVGSVGElement>): JSX.Element => {
   return (
@@ -18,7 +18,7 @@ const Logo = (props: React.SVGProps<SVGSVGElement>): JSX.Element => {
       <mask
         id="logo_svg__a"
         style={{
-          maskType: "alpha",
+          maskType: 'alpha',
         }}
         maskUnits="userSpaceOnUse"
         x={1}

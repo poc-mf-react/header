@@ -1,5 +1,5 @@
-import { Menu, MenuBrand } from "../Menu";
-import { HeaderLinks } from "./HeaderLinks";
+import { Menu, MenuBrand } from '../Menu';
+import { HeaderLinks } from './HeaderLinks';
 
 const Header = () => {
   return (

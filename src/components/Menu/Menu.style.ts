@@ -1,8 +1,8 @@
-import { styled } from "@creditas-ui/system";
-import { selectTheme } from "@creditas-ui/utilities";
+import { styled } from '@creditas-ui/system';
+import { selectTheme } from '@creditas-ui/utilities';
 
 const MenuBackground = styled.div`
-  background: ${selectTheme("colors.neutral.0")};
+  background: ${selectTheme('colors.neutral.0')};
   display: flex;
   width: 100%;
   height: 80px;

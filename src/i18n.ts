@@ -1,13 +1,13 @@
-import Backend from "i18next-xhr-backend";
-import moment from "moment-timezone";
-import { initReactI18next } from "react-i18next";
-import ptbr from "./locales/pt-BR";
-import i18n from "i18next";
+import Backend from 'i18next-xhr-backend';
+import moment from 'moment-timezone';
+import { initReactI18next } from 'react-i18next';
+import ptbr from './locales/pt-BR';
+import i18n from 'i18next';
 
-moment.tz.setDefault("America/Sao_Paulo");
+moment.tz.setDefault('America/Sao_Paulo');
 
 const resources = {
-  "pt-BR": ptbr,
+  'pt-BR': ptbr,
 };
 
 const format = (value: Date | string, pattern: string | undefined): string =>
@@ -17,12 +17,12 @@ i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    lng: "pt-BR",
+    lng: 'pt-BR',
     resources,
     fallbackLng: false,
-    load: "currentOnly",
-    ns: ["common"],
-    defaultNS: "common",
+    load: 'currentOnly',
+    ns: ['common'],
+    defaultNS: 'common',
     interpolation: {
       escapeValue: false,
       format,
