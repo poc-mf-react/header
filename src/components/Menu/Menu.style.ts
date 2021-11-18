@@ -7,6 +7,9 @@ const MenuBackground = styled.div`
   width: 100%;
   height: 80px;
   position: fixed;
+  z-index: 10;
+  top: 0;
+  overflow: hadden;
 `;
 
 const Nav = styled.nav`
